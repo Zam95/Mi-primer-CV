@@ -1,0 +1,95 @@
+/* *{
+    border: 1PX SOLID red;
+} */
+
+
+body{
+background-image: url(./IMG-20200223-WA0309.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+}
+
+.carousel-inner{
+    height: 100%;
+    padding: 15%;
+}
+
+.carousel-inner p{
+display: flex;
+font-size: xx-large;
+width: 99%;
+height: 99%;
+justify-content: space-around;
+align-items: center;
+}
+
+.carousel-inner p:hover{
+    background-color: black;
+    opacity: .5;
+}
+
+
+.grid-item img{
+    max-width: 5rem;
+}
+
+ul:hover{
+background-color: black;
+opacity: .5;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* background-color: #ffffff; */
+    padding: 10px;
+    column-gap: 20px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px double rgba(0, 0, 0, 0.8);
+    padding: 1rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .grid-item:hover {
+      background-color: pink;
+
+  footer{
+    background-color: rgb(128, 128, 128);
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    }
+
+.rss {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.rss img{
+    text-align: left;
+     padding: 0rem;
+    margin: .4rem;
+    }
+
+.izquierda {
+    width: 15rem;
+}
+
+.derecha{
+    width: 15rem;
+    text-align: center;
+    margin: 0%;
+}
+    
+.accordion-item {
+    background-color: azure;
+    opacity: 0.7;
+    /* color: azure; */
+}
